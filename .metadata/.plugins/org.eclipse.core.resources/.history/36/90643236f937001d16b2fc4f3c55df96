@@ -37,7 +37,7 @@ body{
     padding: 0;
 }
 .main-mid-list>li{
-    width: calc((99%/4));
+    width: calc((99.8%/4));
     height: 400px;
     float: left;
     border-right: 1px solid lightgray;
@@ -108,7 +108,6 @@ body{
 .main-bot{
     margin: auto;
     width: 100%;
-    max-width: 1890px;
     padding: 15px;
     height: 650px;
     background-color: white;
@@ -121,7 +120,7 @@ body{
     margin: 50px;
 }
 .main-bot>a>div{
-    width: 623px;
+    width: calc((98.5%/3));
     height: 450px;
     float: left;
     background-repeat: no-repeat;
