@@ -17,11 +17,11 @@
         <div class="header-fixed">
             <div class="header-wrap">
                 <div class="header-top">
-                    <div class="header-logo"><a href="mainPage.html"><img src="img/logo2.png" alt=""></a></div>
+                    <div class="header-logo"><a href="/"><img src="img/logo2.png" alt=""></a></div>
                     <div class="header-navi">
                         <ul>
                             <li>
-                                <a href="productPage.html">제품</a>
+                                <a href="/productList.do">제품</a>
                                 <ul>
                                     <li><a href="#">헤드폰/이어폰</a></li>
                                     <li><a href="#">스피커</a></li>

@@ -1,0 +1,17 @@
+package kr.co.ansany.product.service;
+
+public class ProductService {
+	private PhotoDao dao;
+	
+	public ProductService() {
+		super();
+		dao = new ProductDao();
+	}
+	
+	public int totalCount() {
+		Connection conn = JDBCTemplate.getConnection();
+		int totalCount = dao.totalCount(conn);
+		JDBCTemplate.close(conn);
+		return totalCount;
+	}
+}
