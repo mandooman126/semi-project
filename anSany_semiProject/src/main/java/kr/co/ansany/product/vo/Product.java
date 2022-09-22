@@ -1,6 +1,8 @@
 package kr.co.ansany.product.vo;
 
 public class Product {
+	private int productNo; // 제품 번호
+	private int cateCode; // 카테고리 번호
 	private String productName; // 제품 이름
 	private String productInfo; // 제품 설명
 	private int productPrice; // 제품 가격
@@ -10,12 +12,31 @@ public class Product {
 		super();
 	}
 
-	public Product(String productName, String productInfo, int productPrice, String productImg) {
+	public Product(int productNo, int cateCode, String productName, String productInfo, int productPrice,
+			String productImg) {
 		super();
+		this.productNo = productNo;
+		this.cateCode = cateCode;
 		this.productName = productName;
 		this.productInfo = productInfo;
 		this.productPrice = productPrice;
 		this.productImg = productImg;
+	}
+
+	public int getProductNo() {
+		return productNo;
+	}
+
+	public void setProductNo(int productNo) {
+		this.productNo = productNo;
+	}
+
+	public int getCateCode() {
+		return cateCode;
+	}
+
+	public void setCateCode(int cateCode) {
+		this.cateCode = cateCode;
 	}
 
 	public String getProductName() {
@@ -49,6 +70,9 @@ public class Product {
 	public void setProductImg(String productImg) {
 		this.productImg = productImg;
 	}
+
+
+	
 	
 	
 	

@@ -85,6 +85,5 @@
     </div>
 	<!-- 메인 컨텐츠 끝 -->
 	<%@ include file="/WEB-INF/views/common/footer.jsp" %>
-	 <script src="js/header.js"></script>
 </body>
 </html>
