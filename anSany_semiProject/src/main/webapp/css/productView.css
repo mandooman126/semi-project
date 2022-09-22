@@ -196,6 +196,7 @@ select option[value=""][disabled] {
     border-bottom: 1px solid lightgray;
     box-sizing: border-box;
     font-size: 20px;
+    outline: none;
 }
 .count-box .minus{
     border-left: 1px solid lightgray;
@@ -215,7 +216,7 @@ select option[value=""][disabled] {
     justify-content: center;
     color: gray;
 }
-.count-box .plus:hover{
+.count-box .plus:hover,.count-box .minus:hover{
     cursor: pointer;
 }
 .product-result-price{
